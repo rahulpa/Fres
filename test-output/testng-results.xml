@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[PASS: Title is Matching]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26635" started-at="2017-08-21T17:16:22Z" finished-at="2017-08-21T17:16:48Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="26635" started-at="2017-08-21T17:16:22Z" finished-at="2017-08-21T17:16:48Z">
+      <class name="com.fres.test.ValidLogin">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.fres.test.ValidLogin@9629756]" name="preCondition" is-config="true" duration-ms="5829" started-at="2017-08-21T22:46:22Z" finished-at="2017-08-21T22:46:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testValidLogin()[pri:1, instance:com.fres.test.ValidLogin@9629756]" name="testValidLogin" duration-ms="4181" started-at="2017-08-21T22:46:28Z" finished-at="2017-08-21T22:46:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS: Title is Matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.fres.test.ValidLogin@9629756]" name="postCondition" is-config="true" duration-ms="1480" started-at="2017-08-21T22:46:32Z" finished-at="2017-08-21T22:46:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.fres.test.ValidLogin -->
+      <class name="com.fres.test.InvalidLogin">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.fres.test.InvalidLogin@7f9a81e8]" name="preCondition" is-config="true" duration-ms="4204" started-at="2017-08-21T22:46:33Z" finished-at="2017-08-21T22:46:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testInvalidLogin()[pri:2, instance:com.fres.test.InvalidLogin@7f9a81e8]" name="testInvalidLogin" duration-ms="10162" started-at="2017-08-21T22:46:37Z" finished-at="2017-08-21T22:46:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.fres.test.InvalidLogin@7f9a81e8]" name="postCondition" is-config="true" duration-ms="755" started-at="2017-08-21T22:46:48Z" finished-at="2017-08-21T22:46:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.fres.test.InvalidLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
